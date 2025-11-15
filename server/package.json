@@ -1,0 +1,19 @@
+{
+  "name": "buildathon-server",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot index.ts",
+    "start": "bun run index.ts",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.72.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "~5.9.3"
+  }
+}
